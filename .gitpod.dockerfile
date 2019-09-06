@@ -1,5 +1,3 @@
 FROM gitpod/workspace-full
 FROM gitpod/workspace-mysql
-RUN sudo add-apt-repository ppa:ondrej/php \ &&
-sudo apt-get update \ &&
-sudo apt-get install -y php7.2-bcmath
+RUN sudo apt-get install -y php7.2-bcmath
